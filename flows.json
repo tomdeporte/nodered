@@ -59,5 +59,107 @@
                 "1f5aeca1938fada7"
             ]
         ]
+    },
+    {
+        "id": "ad266df1ad060846",
+        "type": "status",
+        "z": "2c4ec05d5a118857",
+        "name": "",
+        "scope": null,
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "92c62e14ebb5e06b"
+            ]
+        ]
+    },
+    {
+        "id": "92c62e14ebb5e06b",
+        "type": "debug",
+        "z": "2c4ec05d5a118857",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "751adef60955703a",
+        "type": "inject",
+        "z": "2c4ec05d5a118857",
+        "name": "dev",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df7d1130a4ccdb11",
+        "type": "debug",
+        "z": "93f165bb56216fec",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ad9e9b5f1c3a34e9",
+        "type": "inject",
+        "z": "93f165bb56216fec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "df7d1130a4ccdb11"
+            ]
+        ]
     }
 ]
