@@ -59,5 +59,50 @@
                 "1f5aeca1938fada7"
             ]
         ]
+    },
+    {
+        "id": "77f03ff89214221a",
+        "type": "inject",
+        "z": "2c4ec05d5a118857",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "be3a5d093355bab0"
+            ]
+        ]
+    },
+    {
+        "id": "be3a5d093355bab0",
+        "type": "debug",
+        "z": "2c4ec05d5a118857",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 120,
+        "wires": []
     }
 ]
